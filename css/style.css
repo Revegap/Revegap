@@ -3,47 +3,50 @@
     margin: 0;
     padding: 0;
 }
-
 header{
-    background-color: red;
+    background-color: #E0FFFF;
     width: 100vw;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.dofus{
+    width: 50px;
+    height: 50px;
+    border-radius: 150px;
+    margin: 0 10px;
+}
 .header_ul{
     list-style: none;
     display: flex;
 }
 .header_ul li{
-    padding: 10px;
+    padding: 0px;
 }
 .header_ul a{
     color:white;
-    background-color: #13a4a4;
-    padding: 5px;
+    padding: 10px;
     border-radius: 2px;
     text-decoration: none;
 }
 .header_ul a:hover{
-    color: blue;
-    background-color: gray;
-    border-radius: 30px;
+    background-color: #D3D3D3;
+    border-radius: 20px;
 }
 .header_ul a:active{
     color: red;
     background-color: black;
-    border-radius: 30px;
+    border-radius: 20px;
 }
 main{
-    background-color: grey;
+    background-color: #F0FFFF;
     width: 100vw;
     height: 100px;
     display: flex;
 }
 footer{
-    background-color: yellow;
+    background-color: #AFEEEE;
     width: 100vw;
     height: 100px;
 }
