@@ -4,9 +4,9 @@
     padding: 0;
 }
 header{
-    background-color: #E0FFFF;
+    background-color: #4F4D4D;
     width: 100vw;
-    height: 100px;
+    height: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ header{
     text-decoration: none;
 }
 .header_ul a:hover{
-    background-color: #D3D3D3;
+    background-color: #878787;
     border-radius: 20px;
 }
 .header_ul a:active{
@@ -40,13 +40,13 @@ header{
     border-radius: 20px;
 }
 main{
-    background-color: #F0FFFF;
+    background-color: #676767;
     width: 100vw;
-    height: 100px;
+    height: 75vh;
     display: flex;
 }
 footer{
-    background-color: #AFEEEE;
+    background-color: #393939;
     width: 100vw;
-    height: 100px;
+    height: 10vh;
 }
