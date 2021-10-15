@@ -14,10 +14,11 @@ html{
 header{
     background-color: var(--header-bgc);
     width: 100vw;
-    height: 80px;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .dofus{
     width: 50px;
@@ -53,9 +54,20 @@ main{
     width: 100vw;
     height: 75vh;
     display: flex;
+    justify-content: center;
 }
+
+.contenido {
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 footer{
     background-color: var(--footer-bg);
     width: 100vw;
-    height: 10vh;
+    height: 15vh;
 }
